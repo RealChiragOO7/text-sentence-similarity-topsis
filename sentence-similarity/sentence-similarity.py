@@ -49,7 +49,7 @@ for model_name in model_names:
     ])
 
 # Save the cumulative results to a CSV file
-cumulative_results_df.to_csv('scores.csv', index=False)
+cumulative_results_df.to_csv('data.csv', index=False)
 
 # Display the cumulative results
 print(cumulative_results_df)
